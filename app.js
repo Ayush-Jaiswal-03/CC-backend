@@ -16,7 +16,7 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://career-connect-18.netlify.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
